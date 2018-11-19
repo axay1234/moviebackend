@@ -9,22 +9,22 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="user")
+@Table(name="Mintex_user")
 public class User {
 	@Id
-	@Column(name="ID")
+	@Column(name="id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer ID;
 	
-	@Column(name="Username")
-	private String Username;
+	@Column(name="username")
+	private String username;
 	
 	@Column(name="Password")
-	private String Password;
+	private String password;
 	
 	@Column(name="EmailId")
-	private String EmailId;
-
+	private String emailId;
+	
 	public Integer getID() {
 		return ID;
 	}
@@ -34,28 +34,33 @@ public class User {
 	}
 
 	public String getUsername() {
-		return Username;
+		return username;
 	}
 
 	public void setUsername(String username) {
-		Username = username;
+		this.username = username;
 	}
 
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
 
 	public String getEmailId() {
-		return EmailId;
+		return emailId;
 	}
 
 	public void setEmailId(String emailId) {
-		EmailId = emailId;
+		this.emailId = emailId;
 	}
+
+	
+	
+	
+	
 	
 	
 	
