@@ -19,10 +19,10 @@ public class User {
 	@Column(name="username")
 	private String username;
 	
-	@Column(name="Password")
+	@Column(name="password")
 	private String password;
 	
-	@Column(name="EmailId")
+	@Column(name="emailId")
 	private String emailId;
 	
 	public Integer getID() {
