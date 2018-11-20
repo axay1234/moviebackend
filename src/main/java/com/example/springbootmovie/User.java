@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="Mintex_user")
+@Table(name="mintex_user")
 public class User {
 	@Id
 	@Column(name="id")
