@@ -15,7 +15,11 @@ public class UserController {
 	@Autowired
 	UserService userService;
 	
+<<<<<<< HEAD
 	@ GetMapping(value="/moviehello")
+=======
+	@ GetMapping(value="/hello")
+>>>>>>> 615e694033f3efe6479d0bbd0dd30b9ef082d356
 	public String helloMapping() {
 		return "Hello! Welcome to my Movie Project";
 	}
